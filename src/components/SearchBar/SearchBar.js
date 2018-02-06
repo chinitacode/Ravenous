@@ -53,7 +53,7 @@ class SearchBar extends React.Component{
 
   handleSearch(event){
     this.props.searchYelp(this.state.term, this.state.location, this.state.sortBy);
-
+    console.log('I want to eat ' + this.state.term + ' in ' + this.state.location + ' Searched by: ' + this.state.sortBy);
   }
 
   renderSortByOptions() {
