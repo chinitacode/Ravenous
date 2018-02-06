@@ -10,6 +10,7 @@ let Yelp = {
 }).then(response => {return response.json();
 }).then(jsonResponse => {
   if(jsonResponse.business) {
+    console.log(jsonResponse.businesses);
     return jsonResponse.businesses.map(business =>  ({
       id: business.id,
       imageSrc: business.image_url,
