@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 .BusinessList {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 4.4rem 10%;
 }
-=======
-.BusinessList {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 4.4rem 10%;
-}
->>>>>>> 105d7e4f79037450e585cbaa5ca355aad98bc30e
